@@ -1,0 +1,54 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    padding: 1;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color:rgb(250, 224, 206)
+}
+
+#title {
+    font-family: arial;
+    font-weight: 600;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+#amount {
+    padding: 6px;
+    margin: 0px 5px;
+}
+
+select {
+    padding: 6px;
+    width: 110px;
+    text-align: left;
+
+}
+
+
+#result {
+    padding: 6px;
+    width: 80px;
+    margin-left: 10px;
+}
+
+#copyright {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
